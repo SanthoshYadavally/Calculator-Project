@@ -19,7 +19,7 @@ A simple, responsive calculator built with **HTML**, **CSS**, and **JavaScript**
 ## 📸 Demo
 
 Check out the live demo here:  
-👉 [Live Calculator](https://your-username.github.io/calculator-app/)
+👉 [Live Calculator](https://santhoshyadavally.github.io/Calculator-Project/)
 
-## 📂 Folder Structure
+
 
