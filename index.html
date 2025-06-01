@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcultor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <center>
+        <p>Calculator</p>
+        <div id="di">
+            <br>
+            <input id="a"><br><br>
+            <button id="b" onclick="a.value+='%'">%</button>
+            <button id="d" onclick="a.value+='7'">7</button>
+            <button id="d" onclick="a.value+='8'">8</button>
+            <button id="d" onclick="a.value+='9'">9</button>
+            <button id="b" onclick="toggleSign()">+/-</button><br><br>
+            <button id="b" onclick="a.value+='÷'">÷</button>
+            <button id="d" onclick="a.value+='4'">4</button>
+            <button id="d" onclick="a.value+='5'">5</button>
+            <button id="d" onclick="a.value+='6'">6</button>
+            <button id="b" onclick="a.value+='*'">*</button><br><br>
+            <button id="b" onclick="a.value=''">AC</button>
+            <button id="d" onclick="a.value+='1'">1</button>
+            <button id="d" onclick="a.value+='2'">2</button>
+            <button id="d" onclick="a.value+='3'">3</button>
+            <button id="b" onclick="a.value+='-'">-</button><br><br>
+            <input type="button" id="c" value="c" onclick="backspace()">
+            <button id="d" onclick="a.value+='0'">0</button>
+            <button id="d" onclick="a.value+='.'">.</button>
+            <button id="b" onclick="a.value+='+'">+</button><br><br>
+            <button id="e" onclick="calculate()">=</button>
+            
+
+        </div>
+    </center>
+    <script src="./script.js"></script>
+</body>
+</html>

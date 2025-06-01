@@ -1,0 +1,44 @@
+
+#di{
+    width: 20%;
+    height: 290px;
+    border: 1px solid aqua;
+    background-color:aquamarine;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+#a{
+    border-color: aquamarine;
+    border-radius: 5px;
+    height: 20px;
+}
+#b{
+    border-radius: 100%;
+    width: 15%;
+    height: 30px;
+    border-color: aqua;
+    background-color: white;
+    color: aqua;
+}
+#c{
+    border-radius: 100%;
+    width: 15%;
+    height: 30px;
+    border-color: aquamarine;
+    background-color: rgb(254, 152, 169);
+    font-size: 8px;
+    text-align: center;
+    color: white;
+}
+#d{
+    width: 15%;
+    height: 30px;
+    background-color: aqua;
+    border-color: aquamarine;
+}
+#e{
+    width: 60%;
+    border-radius: 10px;
+    border-color: aquamarine;
+    color:aqua
+}
